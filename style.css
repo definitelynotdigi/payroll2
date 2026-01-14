@@ -1,0 +1,111 @@
+
+body {
+    font-family: sans-serif;
+    background-color: rgb(128, 0, 128); /* Light green background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: white;
+    padding: 30px 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-right: 50px;
+    border: 2px solid black;
+}
+
+h1 {
+    color: #2E86C1; /* Blue color for the title */
+    margin-bottom: 30px;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+label {
+    width: 120px;
+    text-align: left;
+    margin-right: 15px;
+    font-weight: bold;
+    color: #333;
+}
+
+input[type="text"] {
+    padding: 8px  12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input[type="number"] {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#all{
+font-size: 16px;
+background: linear-gradient(#ffbc00 5%, #ffdd7f 100%);
+border: 1px solid #e5a900;
+color: #4E4D4B;
+font-weight: bold;
+cursor: pointer;
+width: 47.5%;
+border-radius: 5px;
+margin-bottom:10px;
+padding: 7px 0;
+}
+#all:hover{
+background: linear-gradient(#ffdd7f 5%, #ffbc00 100%);
+}
+
+
+.hidden-form {
+    display: none;
+    border-radius: 10px;
+    border: 2px solid black;
+
+}
+
+.hidden-container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+p {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+.your-form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#yourfirstname {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+#youridnumber , #FULLNAME , #yourposition , #yourworkdays , #yourrate  , #result1 , #result2 , #result3 , #result4 , #result5, #totalresult , #totalpay , h3 {
+    margin: 2px;
+}
+
+.your-form2 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
